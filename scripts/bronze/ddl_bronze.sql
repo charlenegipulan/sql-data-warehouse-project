@@ -1,5 +1,5 @@
-// Purpose: Creates bronze schema, dropping existing table if exists.
-//   Run this to re-define the DDL sctructure of the bronze tables
+-- Purpose: Creates bronze schema, dropping existing table if exists.
+--  Run this to re-define the DDL sctructure of the bronze tables
 
 IF OBJECT_ID ('bronze.crm_cust_info' , 'U') IS NOT NULL
     DROP TABLE bronze.crm_cust_info;
